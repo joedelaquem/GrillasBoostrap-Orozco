@@ -1,0 +1,1075 @@
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* INDEX */
+/* Grilla Header */
+
+.nav{
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-rows: 100%;
+}
+.header_icono{
+    height: 10rem;
+    padding: 10px;
+}
+.lista{
+    display: flex;
+    list-style: none;
+    padding-right: 5rem;
+    padding-left: 5rem;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.contenedor_idioma{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+/* Header */
+
+.lista_item{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    border: 1px solid black;
+    padding: 1rem;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+    box-shadow: 5px 5px 10px gray;
+    transition: box-shadow 0.1s;
+}
+.lista_item:hover{
+    box-shadow: 0px 0px 40px red;
+}
+
+
+.select_idioma{
+    font-size: 1rem;
+    border: 1px solid black;
+    background-color: white;
+    height: 60px;
+    width: 100px;
+    box-shadow: 5px 5px 10px gray;
+    transition: box-shadow 0.1s;
+}
+.select_idioma:hover{
+    box-shadow: 0px 0px 40px red;
+}
+
+/*------------------------------------------------------------------------------*/
+
+/* Main */
+
+.contenedor_imagen{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./Assets/Deathstar\ banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 370px;
+    box-shadow: 20px 20px 10px gray;
+}
+.main_h1{
+    color: white;
+    width: 600px;
+    font-size: 60px;
+}
+.main_button{
+    width: 110px;
+    height: 50px;
+    justify-self: center;
+    align-self: center;
+    font-size: 17px;
+    transition: width 0.3s;
+}
+.main_button:hover{
+    width: 150px;
+}
+
+
+
+.contenedor_titulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    padding: 40px;
+}
+.titulo{
+    font-size: 50px;
+}
+.titulo_parrafo{
+    padding: 20px 0 20px 0;
+    width: 90%;
+}
+
+.contenedor_nota{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    height: 300px;
+    padding: 0 75px 0 75px ;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.contenedor_nota--Stormtroopers{
+    margin: 20px;
+    border-radius: 1rem;
+    box-shadow: 10px 10px 10px gray;
+}
+.contenedor_nota--parrafo{
+    align-self: center;
+    padding: 0 70px 0 70px;
+}
+
+
+.contenedor_nota2{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-items: center;
+    margin: 50px 30px 50px 10px;
+    height: 300px;
+    padding: 0px 80px 0 80px ;
+}
+.oficialesImperiales{
+    margin: 20px;
+    border-radius: 1rem;
+    box-shadow: 10px 10px 10px gray;
+}
+.contenedor_nota--parrafo2{
+    align-self: center;
+}
+
+
+.contenedor_nota3{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    height: 400px;
+    padding: 0 75px 0 75px ;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.propaganda{
+    height: 350px;
+    margin: 20px;
+    border-radius: 1rem;
+    box-shadow: 10px 10px 10px gray;
+}
+.contenedor_nota--parrafo3{
+    align-self: center;
+    padding: 0 70px 0 70px;
+}
+
+
+/*------------------------------------------------------------------------------*/
+
+/* Footer */
+footer{
+    background-color: rgb(58, 58, 58);
+    transform: box-shadow 1s;
+}
+footer:hover{
+    box-shadow: 00px 0px 50px red;
+}
+footer section{
+    border-top: 1.5px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+.face{
+    height: 25px;
+}
+.insta{
+    height: 25px;
+}
+.twitter{
+    height: 25px;
+}
+
+.contenedor3{
+    margin-right: 150px;
+}
+
+footer section div h3{
+    color: white;
+    font-size: 20px; 
+}
+.footer_h4{
+    color: white;
+    font-size: 20px;
+}
+.footer_mail{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    transition: color 1s;
+}
+.footer_mail:hover{
+    color: blue;
+}
+.h5{
+    color: white;
+    font-size: 20px;
+}
+.h5_link{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    transition: color 1s;
+}
+.h5_link:hover{
+    color: blue;
+}
+
+/*--------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------*/
+
+/* Nuestro Trabajo */
+
+/* Main */
+
+.contenedor_nuestrotrabajo{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    height: 450px;
+    background-image: url(./Assets/nuestro\ trabajo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    box-shadow: 20px 20px 10px gray;
+}
+.contenedor_nuestrotrabajo h1{
+    padding-left: 30px;
+    margin-top: 80px;
+    color: white;
+    font-size: 50px;
+}
+.contenedor_nuestrotrabajo p{
+    color: white;
+    width: 700px;
+    margin-left: 120px;
+    height: 100px;
+}
+
+.contenedor_iframe{
+    display: flex;
+    flex-direction: row;
+    margin-top: 200px;
+    padding: 0 100px 0 100px;
+}
+.contenedor_iframe p{
+    width: 550px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.contenedor_iframe iframe{
+    height: 300px;
+    border-radius: 2%;
+    box-shadow: 20px 20px 10px gray;
+}
+
+.contenedor_articulo{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-top: 150px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+
+
+
+
+.contenedor_atat{
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width: 350px;
+    padding: 50px
+}
+.contenedor_atat img{
+    border-radius: 10%;
+    box-shadow: 10px 10px 10px gray;
+}
+
+.contenedor_conectando{
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width: 350px;
+    padding: 50px
+}
+.contenedor_conectando img{
+    border-radius: 10%;
+    box-shadow: 10px 10px 10px gray;
+    height: 250px;
+}
+
+
+.contenedor_expandiendo{
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width: 350px;
+    padding: 50px
+}
+.contenedor_expandiendo img{
+    border-radius: 10%;
+    box-shadow: 10px 10px 10px gray;
+}
+
+.izquierda{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    right: -40px;
+    transition: right, 0.5s;
+}
+.izquierda:hover{
+    right: -30px;
+}
+.izquierda img{
+    height: 70px;
+    width: 50px;
+}
+.derecha{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    right: -30px;
+    transition: right 0.5s;
+}
+.derecha:hover{
+    right: -40px;
+}
+.derecha img{
+    height: 70px;
+    width: 50px;
+}
+
+
+/*--------------------------------------------------------------------------------------------------*/
+
+
+
+
+/* Carreras */
+
+.contenedor_carreras{
+    background-image: url(./Assets/carreras_banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 20px 20px 10px gray;
+}
+
+.contenedor_carreras h1{
+    font-size: 60px;
+    color: white;
+}
+
+.contenedor_carreras button{
+    width: 140px;
+    height: 50px;
+    font-size: 15px;
+    transition: width 0.5s;
+}
+.contenedor_carreras button:hover{
+    width: 180px;
+}
+
+.contenedor_tt{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.rangos_h2{
+    align-self: center;
+    margin-bottom: 30px;
+}
+.rangos_h2 h2{
+    font-size: 70px;
+    border: 2px solid black;
+    padding: 0 500px 0 500px;
+    box-shadow: 0px 0px 40px gray;
+}
+
+.contenedor_rangos{
+    display: flex;
+    flex-direction: column;
+    padding: 0 50px 0 50px;
+}
+.contenedor_Gran-almirante{
+    margin-bottom: 50px;
+}
+.contenedor_Gran-almirante h3{
+    font-size: 40px;
+    text-decoration: underline black;
+}
+.contenedor_Gran-almirante img{
+    margin-left: 40px;
+    box-shadow: 10px 10px 10px gray;
+}
+.contenedor_Gran-almirante p{
+    display: inline-block;
+    position: relative;
+    width: 800px;
+    margin-left: 40px;
+    top: -30px;
+}
+
+.contenedor_almirante-de-flota{
+    margin-bottom: 50px;
+}
+.contenedor_almirante-de-flota h3{
+    font-size: 40px;
+    text-decoration: underline black;
+}
+.contenedor_almirante-de-flota img{
+    margin-left: 40px;
+    box-shadow: 10px 10px 10px gray;
+}
+.contenedor_almirante-de-flota p{
+    display: inline-block;
+    position: relative;
+    width: 800px;
+    margin-left: 40px;
+    top: -30px;
+}
+
+
+.contenedor_almirante{
+    margin-bottom: 50px;
+}
+.contenedor_almirante h3{
+    font-size: 40px;
+    text-decoration: underline black;
+}
+.contenedor_almirante img{
+    margin-left: 40px;
+    box-shadow: 10px 10px 10px gray;
+}
+.contenedor_almirante p{
+    display: inline-block;
+    position: relative;
+    width: 800px;
+    margin-left: 40px;
+    top: -30px;
+}
+
+
+.contenedor_vicealmirante{
+    margin-bottom: 50px;
+}
+.contenedor_vicealmirante h3{
+    font-size: 40px;
+    text-decoration: underline black;
+}
+.contenedor_vicealmirante img{
+    margin-left: 40px;
+    box-shadow: 10px 10px 10px gray;
+}
+.contenedor_vicealmirante p{
+    display: inline-block;
+    position: relative;
+    width: 800px;
+    margin-left: 40px;
+    top: -30px;
+}
+
+
+.contenedor_contralmirante{
+    margin-bottom: 100px;
+}
+.contenedor_contralmirante h3{
+    font-size: 40px;
+    text-decoration: underline black;
+}
+.contenedor_contralmirante img{
+    margin-left: 40px;
+    box-shadow: 10px 10px 10px gray;
+}
+.contenedor_contralmirante p{
+    display: inline-block;
+    position: relative;
+    width: 800px;
+    margin-left: 40px;
+    top: -30px;
+}
+
+
+
+/*--------------------------------------------------------------------------------------------------*/
+
+
+
+
+/* Unite al Imperio */
+
+.contenedor_unite{
+    background-image: url(./Assets/iwantyou.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 750px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 20px 20px 10px gray;
+}
+.contenedor_unite h1{
+    font-size: 70px;
+    margin: 15px 0 0 0;
+    color: white;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    height: 1100px;
+}
+.formulario label{
+    font-size: 25px;
+    margin: 40px 20px 40px 50px;
+    text-decoration: underline black;
+}
+.formulario input{
+    display: inline-block;
+    width: 300px;
+    height: 30px;
+    border: 2px solid black;
+    margin-left: 70px;
+    box-shadow: 5px 5px 10px gray;
+    transition: width, box-shadow, 1s;
+}
+.formulario input:hover{
+    width: 330px;
+    box-shadow: 0 0 25px red;
+}
+.formulario select{
+    display: inline-block;
+    width: 300px;
+    height: 30px;
+    border: 2px solid black;
+    margin-left: 70px;
+    box-shadow: 5px 5px 10px gray;
+    transition: box-shadow 1s;
+}
+.formulario select:hover{
+    box-shadow: 0 0 25px red;
+}
+.formulario textarea{
+    margin: 50px 0 50px 70px;
+    width: 600px;
+    height: 200px;
+    font-size: 20px;
+    border: 2px solid black;
+    box-shadow: 5px 5px 10px gray;
+    transition: box-shadow 1s;
+}
+.formulario textarea:hover{
+    box-shadow: 0 0 30px red;
+}
+.formulario button{
+    width: 250px;
+    height: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    align-self: center;
+    background-color: white;
+    border: 2px solid black;
+    box-shadow: 5px 5px 10px gray;
+    transition: box-shadow, width, 1s;
+}
+.formulario button:hover{
+    width: 280px;
+    box-shadow: 0 0 30px red;
+}
+
+
+
+
+
+
+/*--------------------------------------------------------------------------------------------------*/
+
+/*--------------------------------------------------------------------------------------------------*/
+
+/*--------------------------------------------------------------------------------------------------*/
+
+/*--------------------------------------------------------------------------------------------------*/
+
+/*--------------------------------------------------------------------------------------------------*/
+
+/* Media Queries */
+
+@media screen and (max-width: 425px){
+    .nav{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav_link{
+        width: 160px;
+        padding: 5px;
+    }
+    .lista{
+        display: flex;
+        padding-right: 2px;
+        padding-left: 2px;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .lista li{
+        display: flex;
+        flex-direction: row;        
+    }
+    .lista_item{
+        font-size: 20px;
+        padding: 3px;
+        margin: 3px;
+        height: 60px;
+        transition: none;
+    }
+    .lista_item:hover{
+        box-shadow: none;
+    }
+
+
+
+    .contenedor_idioma{
+        position: absolute;
+        bottom: 450px;
+        left: 305px;
+    }
+    .select_idioma{
+        height: 40px;
+        width: 90px;
+        transition: none;
+    }
+    .select_idioma:hover{
+        box-shadow: none;
+    }
+
+
+    /*------------------------------------------------------------------*/
+
+
+    .contenedor_imagen{
+        background-image: url(./Assets/Deathstar\ banner\ mobile.jpg);
+    }
+
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+    .main_h1{
+        color: white;
+        width: 400px;
+        padding: 20px;
+        font-size: 40px;
+    }
+    .main_button{
+        width: 90px;
+        height: 40px;
+        justify-self: center;
+        align-self: center;
+        font-size: 13px;
+    }
+    .contenedor_nota{
+        display: flex;
+        flex-direction: column;
+        padding: 0 30px 0 30px ;
+        height: 600px;
+    }
+    .contenedor_nota--parrafo{
+        align-self: center;
+        padding: 0 30px 0 30px;
+    }
+    .contenedor_nota2{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        padding: 0px 10px 0 10px ;
+        height: 550px;
+    }
+    .contenedor_nota--parrafo2{
+        align-self: center;
+        padding: 0 35px 0 35px;
+    }
+    .contenedor_nota3{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        height: 900px;
+        padding: 0 40px 0 40px ;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .propaganda{
+        height: 450px;
+        margin: 20px;
+    }
+    .contenedor_nota--parrafo3{
+        align-self: center;
+        padding: 0 30px 0 30px;
+    }
+
+    /* Nuestro Trabajo */
+
+    .contenedor_nuestrotrabajo{
+        display: flex;
+        flex-direction: column;
+        width: 415px;
+        background-image: url(./Assets/nuestro\ trabajo\ 2.png);
+    }
+    .contenedor_nuestrotrabajo h1{
+        font-size: 40px;
+    }
+    .contenedor_nuestrotrabajo p{
+        width: 350px;
+        margin-left: 30px;
+    }
+
+    .contenedor_iframe{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 150px;
+        padding: 0 20px 0 20px;
+    }
+    .contenedor_iframe iframe{
+        height: 200px;
+        width: 370px;
+        border-radius: 2%;
+        box-shadow: 20px 20px 10px gray;
+    }
+    .contenedor_iframe p{
+        width: 370px;
+        margin-top: 50px;
+        padding-left: 10px;
+        padding-right: 10px;
+        align-self: center;
+    }
+
+    .contenedor_articulo{
+        display: flex;
+        flex-direction: column;
+        width: 420px;
+        margin-top: 150px;
+        
+        justify-content: center;
+        margin-bottom: 100px;
+    }
+    .contenedor_atat{
+        display: flex;
+        flex-direction: column;
+        height: 600px;
+        width: 370px;
+        padding: 50px;
+    }
+    .izquierda{
+        display: none;
+    }
+    .derecha{
+        display: none;
+    }
+
+    
+    
+    /* Carreras */
+
+
+    .contenedor_carreras{
+        background-image: url(./Assets/carreras_banner2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 300px;
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 20px 20px 10px gray;
+    }
+    .contenedor_carreras h1{
+        font-size: 40px;
+    }
+    .contenedor_carreras button{
+        width: 120px;
+        height: 40px;
+        font-size: 13px;
+        transition: none;
+    }
+    .contenedor_carreras button:hover{
+        width: 120px;
+        height: 40px;
+    }
+
+    .contenedor_tt{
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+
+    .rangos_h2 h2{
+        font-size: 70px;
+        border: 2px solid black;
+        padding: 0 80px 0 80px;
+        box-shadow: 0px 0px 40px gray;
+    }
+
+    .contenedor_rangos{
+        display: flex;
+        flex-direction: column;
+        width: 420px;
+        justify-items: center;
+    }
+
+
+    .contenedor_Gran-almirante{
+        margin-bottom: 50px;
+        height: 450px;
+    }
+    .contenedor_Gran-almirante h3{
+        font-size: 30px;
+        text-decoration: underline black;
+    }
+    .contenedor_Gran-almirante img{
+        margin-left: 0px;
+        width: 300px;
+        box-shadow: 10px 10px 10px gray;
+    }
+
+    .contenedor_Gran-almirante p{
+        margin-top: 40px;
+        margin-left: 0px;
+        padding: 20px 0 0 0;
+        width: 300px;
+    }
+
+
+
+    .contenedor_almirante-de-flota{
+        margin-bottom: 50px;
+        height: 450px;
+    }
+    .contenedor_almirante-de-flota h3{
+        font-size: 30px;
+        text-decoration: underline black;
+    }
+    .contenedor_almirante-de-flota img{
+        margin-left: 0px;
+        width: 300px;
+        box-shadow: 10px 10px 10px gray;
+    }
+
+    .contenedor_almirante-de-flota p{
+        margin-top: 40px;
+        margin-left: 0px;
+        padding: 20px 0 0 0;
+        width: 300px;
+    }
+
+
+    .contenedor_almirante{
+        margin-bottom: 50px;
+        height: 450px;
+    }
+    .contenedor_almirante h3{
+        font-size: 30px;
+        text-decoration: underline black;
+    }
+    .contenedor_almirante img{
+        margin-left: 0px;
+        width: 300px;
+        box-shadow: 10px 10px 10px gray;
+    }
+
+    .contenedor_almirante p{
+        margin-top: 40px;
+        margin-left: 0px;
+        padding: 20px 0 0 0;
+        width: 300px;
+    }
+    
+    .contenedor_vicealmirante{
+        margin-bottom: 50px;
+        height: 450px;
+    }
+    .contenedor_vicealmirante h3{
+        font-size: 30px;
+        text-decoration: underline black;
+    }
+    .contenedor_vicealmirante img{
+        margin-left: 0px;
+        width: 300px;
+        box-shadow: 10px 10px 10px gray;
+    }
+
+    .contenedor_vicealmirante p{
+        margin-top: 40px;
+        margin-left: 0px;
+        padding: 20px 0 0 0;
+        width: 300px;
+    }
+
+
+    .contenedor_contralmirante{
+        height: 450px;
+    }
+    .contenedor_contralmirante h3{
+        font-size: 30px;
+        text-decoration: underline black;
+    }
+    .contenedor_contralmirante img{
+        margin-left: 0px;
+        width: 300px;
+        box-shadow: 10px 10px 10px gray;
+    }
+
+    .contenedor_contralmirante p{
+        margin-top: 40px;
+        margin-left: 0px;
+        padding: 20px 0 0 0;
+        width: 300px;
+    }
+
+    
+    
+    /*---Unete al Imperio---*/
+
+
+    .contenedor_unite{
+        display: flex;
+        flex-direction: column;
+        background-image: url(./Assets/iwantyou-mobile.jpg);
+        height: 550px;
+    }
+    .contenedor_unite h1{
+        font-size: 55px;
+        margin-top: 40px;
+    }
+    .formulario{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 800px;
+    }
+    .formulario label{
+        margin: 10px;
+        padding: 10px;
+    }
+    .formulario input{
+        margin: 10px;
+        padding: 10px;
+        transition: none;
+    }
+    .formulario select{
+        margin: 10px;
+        transition: none;
+    }
+    .formulario textarea{
+        margin: 20px 0 20px 0;
+        width: 300px;
+        height: 150px;
+        font-size: 15px;
+        border: 2px solid black;
+        box-shadow: 5px 5px 10px gray;
+        transition: box-shadow 1s;
+    }
+    .formulario button{
+        width: 200px;
+        height: 40px;
+        margin-top: 60px;
+        margin-bottom: 50px;
+        align-self: center;
+        background-color: white;
+        border: 2px solid black;
+        box-shadow: 5px 5px 10px gray;
+        transition: none;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    /* Footer */
+
+    .contenedor_footer{
+        border-top: 1.5px solid black;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: flex-start;
+    }
+    footer{
+        transition: none;
+    }
+    footer:hover{
+        box-shadow: none;
+    }
+    .h5{
+        border-top: 1px solid black;
+        color: white;
+        font-size: 13px;
+    }
+    .h5_link{
+        color: white;
+        border-top: 1px solid black;
+        font-size: 13px;
+        text-decoration: none;
+    }
+    .footer_h3{
+        font-size: 15px;
+    }
+    .footer_contenedor2{
+        padding: 10px 0 10px 15px;
+    }
+    .footer_mail{
+        font-size: 15px;
+    }
+    .footer_h4{
+        font-size: 15px;
+    }
+    .contenedor3{
+        padding: 10px 0 10px 15px;
+    }
+}
