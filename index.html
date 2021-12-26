@@ -10,27 +10,41 @@
 </head>
 <body>
     <header class="contenedor_nav">
-            <nav class="nav">
-                <a href="#" class="nav_link"><img src="./Assets/LogoImperio.png" alt="Imperio" class="header_icono"></a>
-                    <ul class="lista">
-                            <li><a href="#" class="lista_item">Inicio</a></li>
-                            <li><a href="./Seccions/Nuestrotrabajo.html" class="lista_item">Nuestro Trabajo</a></li>
-                            <li><a href="./Seccions/Carreras.html" class="lista_item">Carreras</a></li>
-                            <li><a href="./Seccions/Quienessomos.html" class="lista_item">Quienes Somos</a></li>
-                            <li><a href="./Seccions/Unitealimperio.html" class="lista_item">Unite al Imperio</a></li>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <img src="./Assets/LogoImperio.png" alt="" class="logo">
+              <a class="navbar-brand" href="#">Inicio</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./Seccions/Nuestrotrabajo.html">Nuestro Trabajo</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./Seccions/Carreras.html">Carreras</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link" href="./Seccions/Quienessomos.html">Quienes Somos</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
                     </ul>
-                <div class="contenedor_idioma">
-                    <select name="Idioma" id="" class="select_idioma">
-                        <option value="Español">Español</option>
-                        <option value="Ingles">Ingles</option>
-                        <option value="Jawa">Jawa</option>
-                        <option value="Wookie">Wookie</option>
-                        <option value="Geonosian">Geonosian</option>
-                        <option value="Hutt">Hutt</option>
-                        <option value="Zabrak">Zabrak</option>
-                    </select>
-                </div>
-            </nav>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./Seccions/Unitealimperio.html">Unite al Imperio</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <select class="form-control me-2" type="select" placeholder="Seleccionar idioma" aria-label="Seleccionar idioma">
+                    <option value=""></option>
+                </form>
+              </div>
+            </div>
+          </nav>
     </header>
     <main>
         <br>
