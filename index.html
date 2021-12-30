@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,50 +10,59 @@
 </head>
 <body>
     <header class="contenedor_nav">
-        <nav class="nav">
-            <a href="#" class="nav_link"><img src="./Assets/LogoImperio.png" alt="Imperio" class="header_icono"></a>
-                <ul class="lista">
-                        <li><a href="#" class="lista_item">Inicio</a></li>
-                        <li><a href="./Seccions/Nuestrotrabajo.html" class="lista_item">Nuestro Trabajo</a></li>
-                        <li><a href="./Seccions/Carreras.html" class="lista_item">Carreras</a></li>
-                        <li><a href="./Seccions/Quienessomos.html" class="lista_item">Quienes Somos</a></li>
-                        <li><a href="./Seccions/Unitealimperio.html" class="lista_item">Unite al Imperio</a></li>
-                </ul>
-            <div class="contenedor_idioma">
-                <select name="Idioma" id="" class="select_idioma">
-                    <option value="Español">Español</option>
-                    <option value="Ingles">Ingles</option>
-                    <option value="Jawa">Jawa</option>
-                    <option value="Wookie">Wookie</option>
-                    <option value="Geonosian">Geonosian</option>
-                    <option value="Hutt">Hutt</option>
-                    <option value="Zabrak">Zabrak</option>
-                </select>
+        <nav class="container-fluid">
+            <div class="row">
+                <a href="#" class="col-2"><img src="./Assets/LogoImperio.png" alt="Imperio"></a>
+                    <select name="Idioma" id="" class="col-1 offset-8">
+                                <option value="Español">Español</option>
+                                <option value="Ingles">Ingles</option>
+                                <option value="Jawa">Jawa</option>
+                                <option value="Wookie">Wookie</option>
+                                <option value="Geonosian">Geonosian</option>
+                                <option value="Hutt">Hutt</option>
+                                <option value="Zabrak">Zabrak</option>
+                    </select>
             </div>
+            <div class="container">
+                    <ul class="row">
+                            <li class="col-2"><a href="#">Inicio</a></li>
+                            <li class="col-2"><a href="./Seccions/Nuestrotrabajo.html">Nuestro Trabajo</a></li>
+                            <li class="col-2"><a href="./Seccions/Carreras.html">Carreras</a></li>
+                            <li class="col-2"><a href="./Seccions/Quienessomos.html">Quienes Somos</a></li>
+                            <li class="col-2"><a href="./Seccions/Unitealimperio.html">Unite al Imperio</a></li>
+                        
+                    </ul>
+                </div>
         </nav>
 </header>
     <main>
-        <br>
-        <br>
         <div class="contenedor_imagen">
             <h1 class="main_h1">Mejorando Mundos</h1>
             <button class="main_button">Ver mas</button>
         </div>
-        <div class="contenedor_titulo">
-            <h2 class="titulo">Titulo</h2>
-            <p class="titulo_parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur voluptatibus veritatis neque est alias magnam repellat molestias eligendi, animi tenetur blanditiis facere perferendis cum. Ea incidunt veniam repellat, fugit tempora deleniti sunt expedita quisquam placeat dolor facilis ipsum nobis neque, praesentium optio! Veniam distinctio sapiente repellat tempore illo tempora. Impedit nostrum minima quasi dicta ab eos quidem iure ipsum aut cupiditate sapiente ad dolores deleniti similique qui sint sed aliquam, facere magnam iste necessitatibus in. Quos corrupti, amet necessitatibus reiciendis magni, tempora doloremque voluptatum, architecto impedit obcaecati facilis qui cumque officiis voluptatibus delectus temporibus. Repudiandae, fugit. Iure et enim expedita?</p>
+        <div class="container">
+            <div class="row">
+                <h2 class="col-12">Titulo</h2>
+                <p class="col-12">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur voluptatibus veritatis neque est alias magnam repellat molestias eligendi, animi tenetur blanditiis facere perferendis cum. Ea incidunt veniam repellat, fugit tempora deleniti sunt expedita quisquam placeat dolor facilis ipsum nobis neque, praesentium optio! Veniam distinctio sapiente repellat tempore illo tempora. Impedit nostrum minima quasi dicta ab eos quidem iure ipsum aut cupiditate sapiente ad dolores deleniti similique qui sint sed aliquam, facere magnam iste necessitatibus in. Quos corrupti, amet necessitatibus reiciendis magni, tempora doloremque voluptatum, architecto impedit obcaecati facilis qui cumque officiis voluptatibus delectus temporibus. Repudiandae, fugit. Iure et enim expedita?</p>
+            </div>
         </div>
-        <div class="contenedor_nota">
-            <img src="./Assets/stormtroopers.jpg" alt="stormtroopers" class="contenedor_nota--Stormtroopers">
-            <p class="contenedor_nota--parrafo">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt laudantium repellat quis alias rerum totam ea et necessitatibus harum officia ut voluptatem iusto maiores architecto, ab aliquid repellendus nam doloremque eum, veritatis rem consectetur. Corrupti vel beatae corporis est porro, rem dolorem magni exercitationem ut necessitatibus ipsam maxime fugit eos magnam voluptas odio. Est officia hic odit aut facere tempora adipisci amet eveniet, sunt inventore, error provident iusto qui possimus praesentium enim quae, labore modi explicabo perspiciatis libero fuga magni. Quidem doloribus dolores ducimus at illo aliquam nesciunt ipsum atque. Excepturi fuga officia, fugiat eos recusandae provident dolor dolorum. Eligendi.</p>
-        </div>
-        <div class="contenedor_nota2">
-            <img src="./Assets/oficiales_imperiales.jpg" alt="oficialesImperiales" class="oficialesImperiales">
-            <p class="contenedor_nota--parrafo2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt laudantium repellat quis alias rerum totam ea et necessitatibus harum officia ut voluptatem iusto maiores architecto, ab aliquid repellendus nam doloremque eum, veritatis rem consectetur. Corrupti vel beatae corporis est porro, rem dolorem magni exercitationem ut necessitatibus ipsam maxime fugit eos magnam voluptas odio. Est officia hic odit aut facere tempora adipisci amet eveniet, sunt inventore, error provident iusto qui possimus praesentium enim quae, labore modi explicabo perspiciatis libero fuga magni. Quidem doloribus dolores ducimus at illo aliquam nesciunt ipsum atque. Excepturi fuga officia, fugiat eos recusandae provident dolor dolorum. Eligendi.</p>
-        </div>
-        <div class="contenedor_nota3">
-            <img src="./Assets/propaganda.jpg" alt="stormtroopers" class="propaganda">
-            <p class="contenedor_nota--parrafo3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt laudantium repellat quis alias rerum totam ea et necessitatibus harum officia ut voluptatem iusto maiores architecto, ab aliquid repellendus nam doloremque eum, veritatis rem consectetur. Corrupti vel beatae corporis est porro, rem dolorem magni exercitationem ut necessitatibus ipsam maxime fugit eos magnam voluptas odio. Est officia hic odit aut facere tempora adipisci amet eveniet, sunt inventore, error provident iusto qui possimus praesentium enim quae, labore modi explicabo perspiciatis libero fuga magni. Quidem doloribus dolores ducimus at illo aliquam nesciunt ipsum atque. Excepturi fuga officia, fugiat eos recusandae provident dolor dolorum. Eligendi.</p>
+        <div class="container">
+            <div class="row">
+                <img src="./Assets/stormtroopers.jpg" alt="stormtroopers" class="col-5">
+                <p class="col-6 offset-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt laudantium repellat quis alias rerum totam ea et necessitatibus harum officia ut voluptatem iusto maiores architecto, ab aliquid repellendus nam doloremque eum, veritatis rem consectetur. Corrupti vel beatae corporis est porro, rem dolorem magni exercitationem ut necessitatibus ipsam maxime fugit eos magnam voluptas odio. Est officia hic odit aut facere tempora adipisci amet eveniet, sunt inventore, error provident iusto qui possimus praesentium enim quae, labore modi explicabo perspiciatis libero fuga magni. Quidem doloribus dolores ducimus at illo aliquam nesciunt ipsum atque. Excepturi fuga officia, fugiat eos recusandae provident dolor dolorum. Eligendi.</p>
+            </div>
+            </div>
+        <div class="container">
+            <div class="row">
+                <p class="col-6">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt laudantium repellat quis alias rerum totam ea et necessitatibus harum officia ut voluptatem iusto maiores architecto, ab aliquid repellendus nam doloremque eum, veritatis rem consectetur. Corrupti vel beatae corporis est porro, rem dolorem magni exercitationem ut necessitatibus ipsam maxime fugit eos magnam voluptas odio. Est officia hic odit aut facere tempora adipisci amet eveniet, sunt inventore, error provident iusto qui possimus praesentium enim quae, labore modi explicabo perspiciatis libero fuga magni. Quidem doloribus dolores ducimus at illo aliquam nesciunt ipsum atque. Excepturi fuga officia, fugiat eos recusandae provident dolor dolorum. Eligendi.</p>
+                <img src="./Assets/oficiales_imperiales.jpg" alt="oficialesImperiales" class="col-5 offset-1">
+            </div>
+            </div>
+        <div class="container">
+            <div class="row">
+                <img src="./Assets/propaganda.jpg" alt="stormtroopers" class="col-4">
+                <p class="col-7 offset-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt laudantium repellat quis alias rerum totam ea et necessitatibus harum officia ut voluptatem iusto maiores architecto, ab aliquid repellendus nam doloremque eum, veritatis rem consectetur. Corrupti vel beatae corporis est porro, rem dolorem magni exercitationem ut necessitatibus ipsam maxime fugit eos magnam voluptas odio. Est officia hic odit aut facere tempora adipisci amet eveniet, sunt inventore, error provident iusto qui possimus praesentium enim quae, labore modi explicabo perspiciatis libero fuga magni. Quidem doloribus dolores ducimus at illo aliquam nesciunt ipsum atque. Excepturi fuga officia, fugiat eos recusandae provident dolor dolorum. Eligendi.</p>
+            </div>
         </div>
     </main>
     <hr>
@@ -77,5 +87,6 @@
             <h5 class="h5">Todos los derechos reservados. Lea Nuestros <a href="#" class="h5_link">Términos y Condiciones.</a></h5>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
