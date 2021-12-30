@@ -6,10 +6,10 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
-        <link rel="stylesheet" href="./estilos.css">
+        <link rel="stylesheet" href="../estilos.css">
     </head>
     <body>
-        <header class="contenedor_nav">
+        <header>
             <nav class="container-fluid">
                 <div class="row">
                     <a href="../index.html" class="col-2"><img src="../Assets/LogoImperio.png" alt="Imperio"></a>
@@ -30,8 +30,7 @@
                                 <li class="col-2"><a href="./Carreras.html">Carreras</a></li>
                                 <li class="col-2"><a href="./Quienessomos.html">Quienes Somos</a></li>
                                 <li class="col-2"><a href="./Unitealimperio.html">Unite al Imperio</a></li>
-                            
-                        </ul>
+                            </ul>
                     </div>
             </nav>
     </header>
@@ -42,32 +41,42 @@
         </div>
         <section>
             <article>
-                <div class="contenedor_iframe">
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla quaerat nisi omnis distinctio quis quisquam. Voluptate veritatis voluptatum cupiditate ab distinctio consequatur, impedit assumenda odit sit cumque iste est rem ut cum dolorem voluptatibus necessitatibus, enim culpa hic. Ut exercitationem vero atque excepturi quam molestias unde, possimus eum eius. Consequatur, numquam. Magnam officia harum ex voluptates, doloribus laboriosam dolorum libero qui? Ratione a, at repellendus saepe harum nobis ea neque!</p>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/7g77WN6obk4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="container">
+                    <div class="row">
+                        <p class="col-5" #="parrafo">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla quaerat nisi omnis distinctio quis quisquam. Voluptate veritatis voluptatum cupiditate ab distinctio consequatur, impedit assumenda odit sit cumque iste est rem ut cum dolorem voluptatibus necessitatibus, enim culpa hic. Ut exercitationem vero atque excepturi quam molestias unde, possimus eum eius. Consequatur, numquam. Magnam officia harum ex voluptates, doloribus laboriosam dolorum libero qui? Ratione a, at repellendus saepe harum nobis ea neque!</p>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/7g77WN6obk4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="col-6 offset-1"></iframe>
+                    </div>
                 </div>
             </article>
-            <article class="contenedor_articulo">
-                <div class="izquierda">
-                    <img src="../Assets/left-arrow.png" alt="">
+            <div class="container">
+                <div class="row">
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="../Assets/atat-menor tamaño.jpg" class="col-6 offset-3"alt="Conectando Ciudades">
+                            <p class="col-6 offset-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, mollitia! Voluptas dicta provident rem molestias ducimus, est facere deserunt laboriosam ab, sunt dolor nisi nihil, error exercitationem odio ipsa nesciunt quisquam eveniet. Molestiae vero incidunt quos! Nesciunt, cupiditate earum ab rem ipsa enim quasi, illum molestiae nulla velit officia explicabo!</p>
+                          </div>
+                          <div class="carousel-item">
+                            <img src="../Assets/conectando mundos menor tamaño.jpg" class="col-6 offset-3" alt="Conectando mundos">
+                            <p class="col-6 offset-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, mollitia! Voluptas dicta provident rem molestias ducimus, est facere deserunt laboriosam ab, sunt dolor nisi nihil, error exercitationem odio ipsa nesciunt quisquam eveniet. Molestiae vero incidunt quos! Nesciunt, cupiditate earum ab rem ipsa enim quasi, illum molestiae nulla velit officia explicabo!</p>
+                          </div>
+                          <div class="carousel-item">
+                            <img src="../Assets/expandiendo universos menor tamaño.jpg" class="col-6 offset-3" alt="Expandiendo universos">
+                            <p class="col-6 offset-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, mollitia! Voluptas dicta provident rem molestias ducimus, est facere deserunt laboriosam ab, sunt dolor nisi nihil, error exercitationem odio ipsa nesciunt quisquam eveniet. Molestiae vero incidunt quos! Nesciunt, cupiditate earum ab rem ipsa enim quasi, illum molestiae nulla velit officia explicabo!</p>
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
                 </div>
-                <div class="contenedor_atat">
-                    <img src="../Assets/at-at.jpg" alt="at-at">
-                    <p><b>Vinculando ciudades</b> - Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati non distinctio harum, reprehenderit fugiat pariatur eum laudantium asperiores facilis delectus odio laboriosam vitae culpa cupiditate quam ipsum commodi labore necessitatibus ex maiores. Sint quidem officia nam nobis provident explicabo velit impedit obcaecati, eaque minima, maiores in cum recusandae sit enim?</p>
-                </div>
-                <div class="contenedor_conectando">
-                    <img src="../Assets/conectando mundos.jpg" alt="conectando-mundos">
-                    <p><b>Conectando mundos</b> - Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati non distinctio harum, reprehenderit fugiat pariatur eum laudantium asperiores facilis delectus odio laboriosam vitae culpa cupiditate quam ipsum commodi labore necessitatibus ex maiores. Sint quidem officia nam nobis provident explicabo velit impedit obcaecati, eaque minima, maiores in cum recusandae sit enim?</p>
-                </div>
-                <div class="contenedor_expandiendo">
-                    <img src="../Assets/expandiendo universos.jpg" alt="expandiendo-universos">
-                    <p><b>Expandiendo Universos</b> - Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati non distinctio harum, reprehenderit fugiat pariatur eum laudantium asperiores facilis delectus odio laboriosam vitae culpa cupiditate quam ipsum commodi labore necessitatibus ex maiores. Sint quidem officia nam nobis provident explicabo velit impedit obcaecati, eaque minima, maiores in cum recusandae sit enim?</p>
-                </div>
-                <div class="derecha">
-                    <img src="../Assets/right-arrow.png" alt="">
-                </div>
-            </article>
-        </section>
+            </div>
+            
     </main>
     <footer>
         <section class="contenedor_footer">  

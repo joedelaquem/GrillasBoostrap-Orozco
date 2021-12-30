@@ -19,6 +19,10 @@
     justify-self: end;
     border: 1px solid black;
     box-shadow: 10px 10px 10px lightgray;
+    transition: box-shadow 1s;
+}
+.row select:hover{
+    box-shadow: 0px 0px 40px red;
 }
 .row{
     justify-content: center;
@@ -33,6 +37,10 @@
     border: 1px solid black;
     padding: 5px;
     box-shadow: 10px 10px 10px lightgray;
+    transition: box-shadow 1s;
+}
+.row li a:hover{
+    box-shadow: 0px 0px 40px red;
 }
 /*------------------------------------------------------------------------------*/
 
@@ -203,12 +211,7 @@ footer section div h3{
     margin-top: 200px;
     padding: 0 100px 0 100px;
 }
-.contenedor_iframe p{
-    width: 550px;
-    padding-left: 50px;
-    padding-right: 50px;
-}
-.contenedor_iframe iframe{
+.container .row iframe{
     height: 300px;
     border-radius: 2%;
     box-shadow: 20px 20px 10px gray;
@@ -226,75 +229,25 @@ footer section div h3{
 
 
 
-
-.contenedor_atat{
-    display: flex;
-    flex-direction: column;
-    height: 600px;
-    width: 350px;
-    padding: 50px
-}
-.contenedor_atat img{
-    border-radius: 10%;
-    box-shadow: 10px 10px 10px gray;
-}
-
-.contenedor_conectando{
-    display: flex;
-    flex-direction: column;
-    height: 600px;
-    width: 350px;
-    padding: 50px
-}
-.contenedor_conectando img{
-    border-radius: 10%;
-    box-shadow: 10px 10px 10px gray;
-    height: 250px;
-}
-
-
-.contenedor_expandiendo{
-    display: flex;
-    flex-direction: column;
-    height: 600px;
-    width: 350px;
-    padding: 50px
-}
-.contenedor_expandiendo img{
-    border-radius: 10%;
-    box-shadow: 10px 10px 10px gray;
-}
-
-.izquierda{
-    position: relative;
-    width: 50px;
+.carousel-control-prev span{
+    background-color: black;
     height: 50px;
-    right: -40px;
-    transition: right, 0.5s;
+    border-radius: 5px;
 }
-.izquierda:hover{
-    right: -30px;
-}
-.izquierda img{
-    height: 70px;
-    width: 50px;
-}
-.derecha{
-    position: relative;
-    width: 50px;
+.carousel-control-next span{
+    background-color: black;
     height: 50px;
-    right: -30px;
-    transition: right 0.5s;
+    border-radius: 5px;
 }
-.derecha:hover{
-    right: -40px;
+.carousel-inner div img{
+    border-radius: 10px;
+    box-shadow: 20px 20px 10px gray;
 }
-.derecha img{
-    height: 70px;
-    width: 50px;
+.carousel-inner div p{
+    align-self: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
-
-
 /*--------------------------------------------------------------------------------------------------*/
 
 
